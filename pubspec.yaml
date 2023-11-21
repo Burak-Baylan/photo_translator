@@ -1,0 +1,59 @@
+name: photo_translator
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.1+2
+
+environment:
+  sdk: '>=3.1.0-83.0.dev <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_mlkit_text_recognition: ^0.10.0
+  camera: ^0.10.5+4
+  build_runner: ^2.1.5
+  flutter_mobx: ^2.0.2
+  mobx: ^2.0.5
+  mobx_codegen: ^2.0.4
+  flutter_svg: ^2.0.0
+  get_it: ^7.2.0
+  flutter_tts: ^3.6.3
+  translator: ^0.1.7
+  image_picker: ^1.0.4
+  fluttertoast: ^8.2.2
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  hive_flutter: ^1.1.0
+  share_plus: ^7.1.0
+  internet_connection_checker: ^1.0.0+1
+  url_launcher: ^6.1.14
+  get_storage: ^2.1.1
+  purchases_flutter: ^5.7.0
+  rename: ^3.0.0
+  lottie: ^2.6.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/svg/
+    - assets/lotties/
+    - assets/png/
